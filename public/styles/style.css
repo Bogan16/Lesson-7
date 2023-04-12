@@ -1,7 +1,7 @@
 @import url(./variables.css);
 @font-face {
   font-family: "caveat";
-  src: url(/public/fonts/Alkatra-VariableFont_wght.ttf);
+  src: url(../fonts/Alkatra-VariableFont_wght.ttf);
 }
 
 *{
@@ -125,8 +125,8 @@ main{
 .button:hover{
   padding: 2rem 9rem;
   font-size: 1rem;
-  background: var(--header-bg-main);
-  border: 1px solid rgba(200, 255, 0, 0.833);
+  background: var(--header-bg-mono);
+  border: 1px solid rgba(0, 0, 0, 0.833);
   box-shadow: 7px 8px 7px;
 }
 
