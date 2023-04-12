@@ -1,0 +1,6 @@
+:root{
+  --header-bg-main: linear-gradient(to left, yellow, blue);
+  --header-bg-mono: linear-gradient(to left, rgb(27, 27, 24), rgb(81, 81, 81));
+  --img-bg: url(/public/images/texture.jpg);
+  --img-bg-mono: url(/public/images/texture-mono.jpg);
+}

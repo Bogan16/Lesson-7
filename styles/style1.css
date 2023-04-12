@@ -1,0 +1,154 @@
+@import url(./variables.css);
+@font-face {
+  font-family: "caveat";
+  src: url(/public/fonts/Alkatra-VariableFont_wght.ttf);
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.ip{
+  font-family: "caveat", sans-serif;
+}
+
+.header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: .8rem;
+  justify-content: space-between;
+  background: var(--header-bg-mono);
+}
+
+a{
+  text-decoration: none;
+  color: blue;
+}
+
+.img-logo-mono{
+  width: 7rem;
+}
+
+.img-logo-search{
+  width: 1rem;
+  float: left;
+  margin-left: -2rem;
+  margin-top: .3rem;
+}
+
+.img-logo-more{
+  width: 3rem;
+  float: right;
+  margin-right: -2rem;
+}
+
+.more-logo{
+  display: flex;
+}
+
+.input{
+  padding-left: -1rem;
+} 
+
+.h1{
+  text-align: center;
+  padding: 3rem;
+}
+
+main{
+  justify-content: space-evenly;
+  background-image: var(--img-bg-mono);
+}
+
+.block-main{
+  background-color: rgb(255, 255, 255);
+  font-size: 30px;
+  display: block;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+.text-wrapper{
+  padding: 3rem;
+}
+
+.nav{
+  margin-top: .1rem;
+  margin-left: 3rem;
+}
+
+.menu{
+  padding-left: 0;
+  float: left;
+}
+
+.menu a{
+  text-decoration: none;
+  color: #ffffff;;
+  display: inline-block;
+  padding: .5rem .5rem;
+  background-color: rgb(115, 115, 115);
+  border-bottom: .2rem solid #ffffff;
+  border-radius: .4rem;
+}
+
+.menu li{
+  display: inline;
+}
+
+.mono-img1{
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.block-card{
+  color: #ffffff;
+  background: var(--header-bg-mono);
+  font-size: 20px;
+  display: block;
+  margin-left: 7rem;
+  margin-right: 7rem;
+  border-radius: 4rem;
+  
+}
+.card-details{
+  margin: 1rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+.button-wrapper{
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.button{
+  font-family: "caveat", sans-serif;
+  font-size: 1rem;
+  padding: 1rem 4rem;
+  background-color: inherit;
+  border: 1px solid rgb(34, 0, 255);
+  border-radius: 8rem 8rem;
+  cursor: pointer;
+}
+
+.button:hover{
+  padding: 1rem 4rem;
+  font-size: 1rem;
+  background: var(--header-bg-main);
+  border: 1px solid rgba(200, 255, 0, 0.833);
+  box-shadow: 7px 8px 7px;
+}
+
+
+.footer{
+  color: #ffffff;
+  background: var(--header-bg-mono);
+  padding: .8rem;
+}
